@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Wireplay
+GenericName=Game Launcher
+Comment=Cyberpunk Game Launcher
+# Template: ./install.sh fills in the real paths and installs it (see README).
+Exec=python3 /path/to/wireplay/gui.py
+Path=/path/to/wireplay
+Icon=wireplay
+Terminal=false
+Categories=Game;Emulator;
+Keywords=games;launcher;steam;epic;retro;roms;emulator;retroachievements;
+StartupWMClass=wireplay

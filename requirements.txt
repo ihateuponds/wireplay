@@ -1,0 +1,2 @@
+# GUI (gui.py). The terminal UI (app.py) and the scanners need nothing beyond the Python standard library.
+PySide6>=6.5

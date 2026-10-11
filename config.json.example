@@ -1,0 +1,31 @@
+{
+  "_comment": "Copy to ~/.config/wireplay/config.json. JSON has no comments, so keys that start with an underscore are notes and are ignored. Every value below is optional: blank = auto-detect / off. You can also set all of this in the app (Settings, Ctrl+,).",
+
+  "first_run": false,
+
+  "roms_dir": "",
+  "_roms_dir_example": "~/Emulation/roms   or   /run/media/YOU/SDCARD/Emulation/roms   (the folder that contains nes/, snes/, gba/ ...)",
+  "media_dir": "",
+  "_media_dir_example": "~/Emulation/tools/downloaded_media   (EmuDeck / ES-DE box art: <platform>/covers/<rom name>.png)",
+  "steam_dir": "",
+  "_steam_dir_example": "~/.local/share/Steam   (only needed for a non-standard Steam install)",
+  "heroic_dir": "",
+  "_heroic_dir_example": "~/.config/heroic   (Flatpak: ~/.var/app/com.heroicgameslauncher.hgl/config/heroic)",
+
+  "steamgriddb_api_key": "",
+  "_steamgriddb_api_key_help": "free key: https://www.steamgriddb.com/api  (vertical posters for PC games)",
+  "ra_username": "",
+  "ra_api_key": "",
+  "_ra_help": "free Web API key: https://retroachievements.org/controlpanel.php",
+
+  "shortcut_overrides": [],
+  "_shortcut_overrides_example": [{"match": "\\bmy server game\\b", "exclude": "helper", "command": "~/bin/start-my-game.sh"}],
+
+  "discord_rpc": true,
+  "discord_client_id": "",
+  "_discord_client_id_help": "leave blank to use wireplay's own Discord application",
+
+  "card_width": 160,
+  "startup_tab": "all",
+  "shelf_collapsed": false
+}

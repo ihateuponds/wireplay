@@ -1,0 +1,21 @@
+# --- your data: never publish these ---------------------------------------
+wireplay.db
+wireplay.db-wal
+wireplay.db-shm
+config.json
+*.log
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- caches, backups, scratch ------------------------------------------------
+.cache/
+Backups/
+*.bak
+test_*.png
+
+# --- specific to the original author's setup (a WoW private-server helper) --
+launch_wow.sh
